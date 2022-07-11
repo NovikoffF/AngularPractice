@@ -1,0 +1,7 @@
+<header class="header">
+    <h1>TodoListApp</h1>
+    <input class="new-todo" placeholder="plan a day for tomorrow" type="text" autofocus 
+    [value]="text"
+    (keyup)="changeText($event)"
+    (keyup.enter)="addTodo()">
+</header>
